@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/galleryLayer">
+	<LinearLayout android:id="@+id/ImageBox" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbarStyle="outsideInset" android:padding="5px" android:layout_weight="4">
+	   <ImageView android:id="@+id/selectedImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" android:scaleType="centerInside" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1">
+      <Gallery android:id="@+id/ImageGallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="5dp"/>
+	</LinearLayout>
+	<RelativeLayout android:layout_height="wrap_content" android:id="@+id/buttonBox" android:layout_width="fill_parent">
+		<ImageButton android:id="@+id/backButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_revert" android:layout_alignParentLeft="true"/>
+		<ImageButton android:id="@+id/saveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_save" android:layout_alignParentRight="true"/>
+	</RelativeLayout>
+</LinearLayout>

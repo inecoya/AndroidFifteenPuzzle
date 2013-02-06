@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+
+    
+<RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:id="@+id/headerLiner"><TextView android:text="画像" android:id="@+id/Ttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20px"></TextView></LinearLayout><LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbarStyle="outsideInset" android:scrollbars="vertical" android:soundEffectsEnabled="true" android:layout_below="@+id/headerLiner" android:layout_above="@+id/footerLayout"><RadioGroup android:id="@+id/radiogroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/radiobutton0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="数字" />
+        <RadioButton android:id="@+id/radiobutton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="アンドロイド" />
+    
+
+</RadioGroup></LinearLayout><RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:id="@+id/footerLayout"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/backButton2" android:text="ゲームを再開" android:src="@android:drawable/ic_menu_revert" android:layout_centerInParent="true"></ImageButton></RelativeLayout></RelativeLayout>
+
+
+
+
+</LinearLayout>

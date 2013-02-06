@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/reset" android:enabled="true" android:visible="true" android:title="リセット" android:icon="@android:drawable/ic_menu_revert"></item>
+<item android:enabled="true" android:visible="true" android:icon="@android:drawable/ic_menu_gallery" android:title="ギャラリー" android:id="@+id/gallery"></item><item android:title="デバッグ" android:id="@+id/debug" android:enabled="true" android:visible="false"></item><item android:id="@+id/ranking" android:enabled="true" android:visible="true" android:title="ランキング" android:icon="@android:drawable/ic_menu_myplaces"></item>
+
+
+
+<item android:title="設定" android:id="@+id/config" android:enabled="true" android:icon="@android:drawable/ic_menu_preferences" android:visible="false"></item>
+<item android:visible="true" android:id="@+id/hint" android:title="ヒント" android:icon="@android:drawable/ic_menu_info_details" android:enabled="true"></item>
+<item android:id="@+id/preview" android:title="プレビュー" android:visible="true" android:enabled="true" android:icon="@android:drawable/ic_menu_view"></item>
+<item android:id="@+id/help" android:title="ヘルプ" android:icon="@android:drawable/ic_menu_help"></item>
+</menu>

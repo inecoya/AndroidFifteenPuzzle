@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Animal Puzzle</string>
+
+
+<string name="image_count">20</string>
+<string name="file_name">animals</string>
+</resources>
